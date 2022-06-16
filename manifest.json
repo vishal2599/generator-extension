@@ -1,0 +1,28 @@
+{
+    "name": "Business Name Generator",   
+    "description": "Name Generator",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs", 
+        "storage", 
+        "scripting", 
+        "activeTab",
+        "geolocation"
+    ],
+    "host_permissions": [
+        "http://*/", 
+        "https://*/"
+    ],
+    "action":{
+        "default_icon":{
+            "16": "assets/images/BNG.png",
+            "24": "assets/images/BNG.png",
+            "32": "assets/images/BNG.png"
+        },
+        "default_popup": "popup.html"
+    }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/elegant.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="bng-generator name-search word-generator custom css">
+        <form method="GET" class="generator-form" action="https://businessnamegenerator.com/nameideas/" target="_blank">
+            <input type="hidden" name="shortcode_id" value="1">
+            <div class="flex-column input-group">
+                <input class="form-control mb-2 p-4 inputMain" name="bname" type="text" default="" value="" autofocus="autofocus" data-active="true" placeholder="Enter keywords like, Tech, Marketing, Agency">
+                <input type="hidden" name="device" value="desktop">
+                <button class="btn m-0 px-5 generatorbtn" type="submit" style="background-color:#0b0a0a !important; color:#ffffff">Get Started</button>
+            </div>
+            <p id="user-location"></p>
+        </form>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
